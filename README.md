@@ -7,6 +7,9 @@ in as arguments. If a precondition is not met then an exception is thrown.
 
 Preconditions prefixed with "opt_" (optional) will also accept values that are undefined or null.
 
+This module has been developed and tested on [Node v10 and v12](https://nodejs.org/) 
+for the [mining pools](https://mintpond.com/#!/ravencoin) at [MintPond](https://mintpond.com).
+
 _Install_:
 ```
 npm config set @mintpond:registry https://npm.pkg.github.com
